@@ -36,7 +36,7 @@ while True:
   content = "Last 24h reward number: 0.0{} XMR\nLast 24h reward number in EUR: {:.2f}\nActual Round Share: {}%\nNumber of workers online: {}\nLast Block XMR reward: 0.000{}\nTotal payout :{}\nCurrent Hashrate : {} KH/s\nAverage Hashrate : {} KH/s\nNetwork Difficulty: {} G".format(last_reward_num, eur, last_reward_percentage, workerOnline, Last_Block_XMR_reward, paymentsTotal, currentHashrate, Hashrate, difficulty)
 
   def send_to_discord(content):
-    webhook_url = "https://discord.com/api/webhooks/1069319353956323348/hbY_Ouh7lwSymAf9Lk6yE4e2tP-Fuaaq-axphwlgVgDxEsQxMdvdI5KqCpwuJfm0bDFF"
+    webhook_url = "https://discord.com/api/webhooks/1069319344380719104/4ZxYrJruHifSvIfyHor6dKkp_pFXI7WNBfVvT5s4lXNlwAgyI--GWd7EBEKxDcGa274p"
     payload = {
         "avatar_url": "https://cdn.iconscout.com/icon/free/png-256/monero-3629611-3032309.png",
         "username": "2miners XMR pool",
